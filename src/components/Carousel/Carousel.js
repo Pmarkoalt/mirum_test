@@ -75,13 +75,22 @@ class Carousel extends Component{
           firstImg = 3;
       }
       this.props.pageSelect(page);
+      let currBands = [];
+      if (this.state.allBands){
+        currBands = this.state.allBands.slice([firstImg], [firstImg + 3]);
+      }
       this.setState({
-        currThree: this.state.allBands.slice([firstImg], [firstImg + 3]),
+        currThree: currBands,
       });
     }
   
     renderThreeLogos() {
-      if (this.state.currThree.length === 0) {return <h5>Loading</h5>}
+      if (this.state.currThree.length === 0) {return (
+        <div id="loadingContainer">
+          <h1>Loading Images</h1>
+          <h5>If images do not appear, make sure you have the json-server running</h5>
+        </div>
+      )}
       const images = this.state.currThree.map((band, index) => 
         <div key={index} className="cardContainer">
           <Link to={'/band/' + band.id} > 

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link, Redirect } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { getBand } from '../../api/bandApi';
-import NotFoundPage from '../../shared/util/NotFoundPage';
 import './band.css';
 
 
@@ -32,7 +31,6 @@ class Band extends Component{
     const { match: { params } } = this.props;
     getBand(params.id)
     .then(data => {
-      console.log(data);
       if (data) {
         this.setState({
           band: data
