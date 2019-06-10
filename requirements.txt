@@ -1,0 +1,21 @@
+Topic
+Think of a topic for this prototype website, something that you are interested in for example NFL teams.
+
+General Requirements for this build:
+1) Make sure the entire website is responsive.
+2) Custom CSS/SASS no bootstrap or foundation.
+3) Build it in React (You can use create-react-app)
+4) Be as creative as you would like.
+
+Home Page
+- Build a custom carousel (no plugins)
+- Link the image out to a detail page
+
+Detail Page 
+- Create a gallery so each thumbnail you click it will appear in the big image section just like the comp.
+
+Final Product
+Zip up the build file and I will run it on my local machine.
+
+
+

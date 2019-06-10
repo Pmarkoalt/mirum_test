@@ -1,0 +1,26 @@
+#notFound{
+    flex: 1 0 auto;
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+#notFoundBack{
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+#notFoundContent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+#errorText{
+    font-size: 5em;
+}
+
+#errorSubText{
+    font-size: 2em;
+}

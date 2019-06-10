@@ -1,0 +1,46 @@
+#bandContainer{
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
+
+#band_navContainer{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#band_imagesContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#band_bigImage #band_wideImage{
+    width: 100%;
+}
+
+#band_wideImage{
+    object-fit: cover;
+    object-position: center;
+    height: 30vh;
+
+}
+
+#band_imageRow{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.band_rowImage{
+    width: 5vw;
+    height: 5vw;
+}
+
+.back{
+
+}

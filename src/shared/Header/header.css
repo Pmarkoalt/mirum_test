@@ -1,0 +1,22 @@
+#header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #013334;
+    color: white;
+    font-size: 2em;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    max-height: 250px;
+}
+
+#headerTitle{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#subHeader{
+    font-size: .5em;
+}

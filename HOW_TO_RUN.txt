@@ -1,0 +1,6 @@
+This app utilizes the JSON-Server library and the create-react-app.
+
+To have the app function properly run at the same time
+
+1. npm run start-server
+2. npm run start

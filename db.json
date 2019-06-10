@@ -1,0 +1,77 @@
+{
+    "bands": [
+        {
+            "id": 1,
+            "name": "Joy Division",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum urna est, et blandit mauris vestibulum.",
+            "slug_name": "joy_division",
+            "logo": "band_logos/joy_division.jpg",
+            "banner": "band_banners/joy_division.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Echo & The Bunnymen",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum urna est, et blandit mauris vestibulum.",
+            "slug_name": "echo_bunnymen",
+            "logo": "band_logos/echo_bunnymen.jpg",
+            "banner": "band_banners/echo_bunnymen.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Siouxsie & The Banshees",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum urna est, et blandit mauris vestibulum.",
+            "slug_name": "siouxsie_banshees",
+            "logo": "band_logos/siouxsie_banshees.jpg",
+            "banner": "band_banners/siouxsie_banshees.jpg"
+
+        },
+        {
+            "id": 4,
+            "name": "Tears For Fears",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum urna est, et blandit mauris vestibulum.",
+            "slug_name": "tears_for_fears",
+            "logo": "band_logos/tears_for_fears.jpg",
+            "banner": "band_banners/tears_for_fears.jpg"
+        },
+        {
+            "id": 5,
+            "name": "The Cure",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum urna est, et blandit mauris vestibulum.",
+            "slug_name": "the_cure",
+            "logo": "band_logos/the_cure.gif",
+            "banner": "band_banners/the_cure.jpg"
+        },
+        {
+            "id": 6,
+            "name": "The Smiths",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum urna est, et blandit mauris vestibulum.",
+            "slug_name": "the_smiths",
+            "logo": "band_logos/the_smiths.jpg",
+            "banner": "band_banners/the_smiths.jpg"
+        },
+        {
+            "id": 7,
+            "name": "R.E.M.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum urna est, et blandit mauris vestibulum.",
+            "slug_name": "rem",
+            "logo": "band_logos/rem.jpg",
+            "banner": "band_banners/rem.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Depeche Mode",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum urna est, et blandit mauris vestibulum.",
+            "slug_name": "depeche_mode",
+            "logo": "band_logos/depeche_mode.jpg",
+            "banner": "band_banners/depeche_mode.jpg"
+        },
+        {
+            "id": 9,
+            "name": "The Human League",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum urna est, et blandit mauris vestibulum.",
+            "slug_name": "human_league",
+            "logo": "band_logos/human_league.jpg",
+            "banner": "band_banners/human_league.jpg"
+        }
+    ]
+}
