@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# How to run the site
+
+In two instance of terminal run `npm start` and `npm run start-server`
+
+`npm-start` will start the create react-app
+
+`npm run start-server` will run the json-server library. This library serves "documents" from a "collection" corresponding that point to images in the public directory as well as information pertaining to each unique page
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -11,6 +19,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
+
+### `npm run start-server`
+
+Runs the json-server server.<br>
+Open [http://localhost:3001/bands](http://localhost:3001/bands) to view the collection being server.
+
+No other collections were made for this app so that is the only viable route with
+the exception of routes point it IDs e.g. [http://localhost:3001/bands/1](http://localhost:3001/bands/1).<br>
+The collection will also update if you alter the db.json file in the root directory.
 
 ### `npm test`
 
